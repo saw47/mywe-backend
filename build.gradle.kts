@@ -24,4 +24,7 @@ dependencies {
     testImplementation(libs.ktor.server.test.host)
     testImplementation(libs.kotlin.test.junit)
     implementation(libs.kotlinx.serialization.json)
+    implementation(libs.exposed.core)
+    implementation(libs.exposed.dao)
+    implementation(libs.exposed.jdbc)
 }
